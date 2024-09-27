@@ -5,3 +5,14 @@ if (premier >= 18) {
 } else {
     alert("You are left years to drive.")
 }
+
+
+// Reponse numero 2
+let myAge = 18;
+let yourAge = 35;
+let Entrer = prompt("Enter your age:") 
+if (myAge < yourAge) {
+    console.log("You are years older than me");
+}else {
+    console.log("I am years older than me");
+}

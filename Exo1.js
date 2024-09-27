@@ -27,3 +27,13 @@ if (a > b){
 } else {
     console.log("a est inférieur à b "); 
 }
+
+
+// Reponse numero 4
+let num = prompt("Enter a number");
+num = parseInt(num)
+if (num % 2 === 0){
+    console.log(num + ' est paire')
+} else{
+    console.log(num + ' est impaire');
+}

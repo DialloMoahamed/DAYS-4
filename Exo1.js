@@ -16,3 +16,14 @@ if (myAge < yourAge) {
 }else {
     console.log("I am years older than me");
 }
+
+
+// Reponse numero 3
+let a = 9;
+let b = 3;
+if (a > b){
+    console.log("a est supérieur à b"); 
+
+} else {
+    console.log("a est inférieur à b "); 
+}

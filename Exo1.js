@@ -1,20 +1,22 @@
-// Reponse numero 1
-let premier = prompt("Enter your age:");
-if (premier >= 18) {
-    alert("You are old enough to drive.")
-} else {
-    alert("You are left years to drive.")
-}
+// // Reponse numero 1
+// let premier = prompt("Enter your age:");
+// if (premier >= 18) {
+//     alert("You are old enough to drive.")
+// } else {
+//     alert("You are left years to drive.")
+// }
 
 
 // Reponse numero 2
-let myAge = 18;
-let yourAge = 35;
-let Entrer = prompt("Enter your age:") 
-if (myAge < yourAge) {
-    console.log("You are years older than me");
+
+let myAge = prompt("Enter my age:") 
+let yourAge = prompt("Enter your age:") 
+myAge = parseInt(myAge);
+yourAge = parseInt(yourAge)
+if (myAge > yourAge) {
+    console.log("I am  " ,myAge - yourAge, "years older than you");
 }else {
-    console.log("I am years older than me");
+    console.log("you are " , yourAge - myAge, "years older than me");
 }
 
 

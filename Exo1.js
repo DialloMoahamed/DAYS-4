@@ -1,13 +1,14 @@
-// // Reponse numero 1
-// let premier = prompt("Enter your age:");
-// if (premier >= 18) {
-//     alert("You are old enough to drive.")
-// } else {
-//     alert("You are left years to drive.")
-// }
+ // Reponse numero 1
+ let premier = prompt("Enter your age:");
+ let conversion = parseInt(premier) 
+ if (premier >= 18) {
+    alert("You are old enough to drive.")
+ } else {
+     alert("You are left " , 18 - premier, "years to drive.")
+ }
 
 
-// Reponse numero 2
+// Reponse numero 21!
 
 let myAge = prompt("Enter my age:") 
 let yourAge = prompt("Enter your age:") 

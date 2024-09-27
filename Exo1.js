@@ -21,6 +21,7 @@ if (myAge > yourAge) {
 
 
 // Reponse numero 3
+// First
 let a = 9;
 let b = 3;
 if (a > b){
@@ -29,6 +30,9 @@ if (a > b){
 } else {
     console.log("a est inférieur à b "); 
 }
+// Second
+console.log(a > b ? "a est supérieur à b" : "a est inférieur à b ");
+
 
 
 // Reponse numero 4

@@ -34,12 +34,12 @@ if (moisAutomne.includes(saison)) {
 
 
 // Réponse numero 3
-let Week = prompt("Entrer le jour").trim();
+let day = prompt("Entrer le jour").trim();
 const jourouvrable = ["lundi","Mardi","Mercredi","jeudi","vendredi"];
 const weekend = ["samedi","dimanche"];
-if (jourouvrable.includes(Week)) {
+if (jourouvrable.includes(day)) {
     console.log("C'est un jour ouvrable");
-} else if (weekend.includes(Week)) {
+} else if (weekend.includes(day)) {
     console.log("C'est un week-end");
 } else {
     console.log("Ce n'est pas un jour");
